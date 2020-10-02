@@ -8,12 +8,27 @@
   background-color: #38403F;
   color: #fff;
 }
+
+.nav1{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
 .top-text{
   display: flex;
   margin-top: 10px;
   font-size: 10px;
   align-items: center;
   flex-direction: column;
+}
+
+.author{
+  font-size: 17px;
+  color: blue;
+  padding-top: 5px;
+
 }
 .coin-app {
   display: flex;

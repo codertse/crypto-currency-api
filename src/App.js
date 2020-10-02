@@ -39,7 +39,9 @@ class App extends React.Component{
     const topText= "Made with <3"
     return (
       <div>
-        <h5 className='top-text'>{topText}</h5>
+        <h2 className="nav1">Cryptocurrency Market<a className = "author" 
+            href = "https://github.com/codertse/crypto-currency-api.git">Github</a> <a className = "author" 
+            href = "https://www.linkedin.com/in/tseveendorj-ganbold-603770139/">LinkedIn</a></h2>
         <div className='coin-app'>
         
           <div className='coin-search'>
